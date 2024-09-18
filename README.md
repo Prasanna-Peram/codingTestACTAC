@@ -15,10 +15,14 @@ This is a simple web application for managing a collection of books, allowing us
 - Delete a book
 
 
-## Installation
+## Installation and Instructions to test the application.
 1. Clone the repository:
    ```bash
    git clone https://github.com/Prasanna-Peram/codingTestACTAC.git
+2. Create a database with name fullstack_db in your local or where ever you want to test this application. Use below query.
+   create database fullstack_db;
+3. Import the database schema file located in: codingTestACTAC-master/fullstack_db.sql into the local database you created in step 2.
+   
 
 **Challenges**:
 
