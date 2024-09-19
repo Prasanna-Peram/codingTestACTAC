@@ -32,3 +32,9 @@ Handling CORS issues for backend and frontend as they are on different ports.
 Ensuring data validation on both client and server sides.
 Managing state in Vue when creating and updating books.
 Ensuring responsive design for different screen sizes
+
+**Scope for Future enhancements**
+1. Add meta data columns to the database schema. Table: **books**
+2. New columns to be added to the table: **created_by, updated_by, created_time, last_modified_time, active**.
+3. **active** column make sures the book gets soft deleted not hard delete. Also, can have some audit tables on what exactly changed on a book.
+   
