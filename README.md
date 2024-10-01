@@ -5,7 +5,7 @@ This is a simple web application for managing a collection of books, allowing us
 
 ## Technologies Used
 - **Backend**: CodeIgniter 3.1.13 (PHP)
-- **Frontend**: Vue 2 (JavaScript)
+- **Frontend**: Vue 2 (JavaScript), Bootstrap
 - **Database**: MySQL
 
 ## Features
@@ -18,20 +18,13 @@ This is a simple web application for managing a collection of books, allowing us
 ## Installation and Instructions to test the application.
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Prasanna-Peram/codingTestACTAC.git
+   git clone https://github.com/Prasanna-Peram/online-book-store.git
 2. Create a database with name fullstack_db in your local or where ever you want to test this application. Use below query.
    create database fullstack_db;
-3. Import the database schema file located in: codingTestACTAC-master/fullstack_db.sql into the local database you created in step 2.
-4. Navigate to frontend folder (_cd codingTestACTAC-master/frontend_) from your terminal.
+3. Import the database schema file located in: online-book-store-master/fullstack_db.sql into the local database you created in step 2.
+4. Navigate to frontend folder (_cd online-book-store-master/frontend_) from your terminal.
 5. run command "npm run serve"
    
-
-**Challenges**:
-
-Handling CORS issues for backend and frontend as they are on different ports.
-Ensuring data validation on both client and server sides.
-Managing state in Vue when creating and updating books.
-Ensuring responsive design for different screen sizes
 
 **Scope for Future enhancements**
 1. Add meta data columns to the database schema. Table: **books**
