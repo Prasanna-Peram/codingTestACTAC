@@ -1,4 +1,4 @@
-# CRUD Book Collection Application
+# Online Book Store Application
 
 ## Overview
 This is a simple web application for managing a collection of books, allowing users to perform CRUD (Create, Read, Update, Delete) operations.
